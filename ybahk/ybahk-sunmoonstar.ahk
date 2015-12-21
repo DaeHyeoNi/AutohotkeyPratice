@@ -143,8 +143,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar1
 	}
 	if (zar1>3||zar1<1)
@@ -164,8 +164,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX
 	}
 	if (playerX>4||playerX<1)
@@ -178,8 +178,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar2
 	}
 	if (zar2>3||zar2<1)
@@ -199,8 +199,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY
 	}
 	if (playerY>4||playerY<1)
@@ -292,8 +292,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar11
 	}
 	if (zar1>3||zar1<1)
@@ -313,8 +313,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX1
 	}
 	if (playerX>4||playerX<1)
@@ -327,8 +327,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar21
 	}
 	if (zar2>3||zar2<1)
@@ -348,8 +348,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY2
 	}
 	if (playerY>4||playerY<1)
@@ -445,8 +445,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar12
 	}
 	if (zar1>3||zar1<1)
@@ -466,8 +466,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX
 	}
 	if (playerX>4||playerX<1)
@@ -480,8 +480,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar22
 	}
 	if (zar2>3||zar2<1)
@@ -501,8 +501,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY2
 	}
 	if (playerY>4||playerY<1)
@@ -596,8 +596,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar13
 	}
 	if (zar1>3||zar1<1)
@@ -617,8 +617,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX3
 	}
 	if (playerX>4||playerX<1)
@@ -631,8 +631,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar23
 	}
 	if (zar2>3||zar2<1)
@@ -652,8 +652,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY3
 	}
 	if (playerY>4||playerY<1)
@@ -750,8 +750,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar14
 	}
 	if (zar1>3||zar1<1)
@@ -771,8 +771,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX4
 	}
 	if (playerX>4||playerX<1)
@@ -785,8 +785,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar24
 	}
 	if (zar2>3||zar2<1)
@@ -806,8 +806,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY4
 	}
 	if (playerY>4||playerY<1)
@@ -902,8 +902,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar15
 	}
 	if (zar1>3||zar1<1)
@@ -923,8 +923,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX5
 	}
 	if (playerX>4||playerX<1)
@@ -937,8 +937,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar25
 	}
 	if (zar2>3||zar2<1)
@@ -958,8 +958,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY5
 	}
 	if (playerY>4||playerY<1)
@@ -1056,8 +1056,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar16
 	}
 	if (zar1>3||zar1<1)
@@ -1077,8 +1077,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX6
 	}
 	if (playerX>4||playerX<1)
@@ -1091,8 +1091,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar26
 	}
 	if (zar2>3||zar2<1)
@@ -1112,8 +1112,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY6
 	}
 	if (playerY>4||playerY<1)
@@ -1209,8 +1209,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar17
 	}
 	if (zar1>3||zar1<1)
@@ -1230,8 +1230,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX7
 	}
 	if (playerX>4||playerX<1)
@@ -1244,8 +1244,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar27
 	}
 	if (zar2>3||zar2<1)
@@ -1265,8 +1265,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY7
 	}
 	if (playerY>4||playerY<1)
@@ -1364,8 +1364,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar18
 	}
 	if (zar1>3||zar1<1)
@@ -1385,8 +1385,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX8
 	}
 	if (playerX>4||playerX<1)
@@ -1399,8 +1399,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar28
 	}
 	if (zar2>3||zar2<1)
@@ -1420,8 +1420,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY8
 	}
 	if (playerY>4||playerY<1)
@@ -1517,8 +1517,8 @@
 	InputBox,zar1,,플레이어 1은 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar19
 	}
 	if (zar1>3||zar1<1)
@@ -1537,8 +1537,8 @@
 	InputBox,playerX,,플레이어 1은 %zar1% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerX9
 	}
 	if (playerX>4||playerX<1)
@@ -1550,8 +1550,8 @@
 	InputBox,zar2,,플레이어 2는 1(해)`,2(달)`,3(별)중 하나를 선택해 주세요
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, zar29
 	}
 	if (zar2>3||zar2<1)
@@ -1570,8 +1570,8 @@
 	InputBox,playerY,,플레이어 2는 %zar2% 를 선택했습니다`n배팅금을 선택해 주세요 (1~4)
 	if (ErrorLevel=1)
 	{
-		Exitapp
-		;MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
+		
+		MsgBox, 취소버튼은 안됩니다. 다시 입력해주세요
 		goto, playerY9
 	}
 	if (playerY>4||playerY<1)
