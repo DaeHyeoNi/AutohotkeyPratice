@@ -2,11 +2,12 @@ FileEncoding, UTF-8 ; UTF-8
 #include ybahk-opgg.ahk ; OPGG Function Include Line "15" Github #1
 #include ybahk-naver.ahk ; Naver Function Include LIne "13,14" Github #1
 #include ybahk-pibonachi.ahk ; 최상원
+#include ybahk-sunmoonstar.ahk ; 김범규
 
 Main:
 loop
 {
-dummy := "[F1] Msgbox 예제`n[F2] 네이버 검색`n[F3] 네이버 실시간 검색어 순위`n[F4] 리그오브레전드 전적검색`n[F5] 오목게임 실행`n[F6] 피보나치 함수값 구하기"
+dummy := "[F1] Msgbox 예제`n[F2] 네이버 검색`n[F3] 네이버 실시간 검색어 순위`n[F4] 리그오브레전드 전적검색`n[F5] 오목게임 실행`n[F6] 피보나치 함수값 구하기`n[F7] 해달별 게임"
 traytip, 오토핫키 기능 예제, %dummy%,,1
 sleep 7000
 }
@@ -16,6 +17,7 @@ F3::goto HotNaver
 F4::goto OPGG
 F5::goto omok
 F6::goto pibo
+F7::goto sunmoonstar
 F9::
 Run, taskkill.exe /F /IM omok.exe,, Hide
 goto Main
@@ -50,6 +52,10 @@ return
 
 pibo: ;최상원 만듬
 pibo()
+return
+
+sunmoonstar: ;김범규 만듬
+sunmoonstar()
 return
 
 #include ybahk-uriencode.ahk ; uriencode Function 
