@@ -7,7 +7,7 @@ Gui, Show, w397 h83, Yes No GUI 예제
 return
 
 ButtonYes:
-msgbox, 에를 눌렀네
+msgbox, 를 눌렀네
 return
 
 ButtonNo:
